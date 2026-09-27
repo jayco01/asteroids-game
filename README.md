@@ -1,3 +1,1 @@
-# asteroids-game
-# asteroids-game
-# asteroids-game
+# this is my own version of the classic asteroids-game
