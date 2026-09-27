@@ -19,6 +19,6 @@ class CircleShape(pygame.sprite.Sprite):
         # must override
         pass
 
-    def update(self, dt: float) -> None:
+    def update(self, delta_time: float|int) -> None:
         # must override
         pass
