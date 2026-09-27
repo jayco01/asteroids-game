@@ -1,2 +1,5 @@
 /.venv/
 /uv.lock
+__pycache__/
+/.idea/
+game_state.jsonl
