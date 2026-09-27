@@ -22,3 +22,11 @@ class CircleShape(pygame.sprite.Sprite):
     def update(self, delta_time: float|int) -> None:
         # must override
         pass
+
+    def collides_with(self, other: 'CircleShape') -> bool:
+        if isinstance(other, CircleShape):
+            combined_radius = self.radius + other.radius
+            distance = self.position.distance_to(other.position)
+            if combined_radius >= distance:
+                return True
+        return False
