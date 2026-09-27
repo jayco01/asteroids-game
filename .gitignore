@@ -3,3 +3,4 @@
 __pycache__/
 /.idea/
 game_state.jsonl
+/game_events.jsonl
